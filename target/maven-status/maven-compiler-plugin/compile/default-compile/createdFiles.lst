@@ -1,0 +1,4 @@
+downloader\YTD.class
+downloader\YoutubeDownloader.class
+downloader\StrParser.class
+downloader\HTMLParser.class
