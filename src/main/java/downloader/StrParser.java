@@ -11,7 +11,6 @@ class StrParser{
         beginIndex = str.indexOf(begin, beginIndex);
         endIndex = str.indexOf(end, beginIndex);
         if(beginIndex == -1 || endIndex == -1 ) return links;
-        //System.out.println(str.substring(beginIndex, endIndex));
         links.add(str.substring(beginIndex, endIndex));
 
         beginIndex++;

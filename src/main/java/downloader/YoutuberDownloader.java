@@ -19,9 +19,6 @@ class YoutubeDownloader {
 
     public void getVideo(String downloadFromURL)
         throws Exception{
-        //downloadFromURL = s;
-
-        //downloadUrl = "https://www.youtube.com/" + s.substring(30, s.length() - 1);
         downloadUrl = downloadFromURL;
         System.out.println(downloadUrl + "............[OK]");
 
